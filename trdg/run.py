@@ -13,7 +13,8 @@ from multiprocessing import Pool
 from tqdm import tqdm
 
 from trdg.data_generator import FakeTextDataGenerator
-from trdg.string_generator import (
+# from trdg.string_generator import (
+from string_generator import (
     create_strings_from_dict,
     create_strings_from_file,
     create_strings_from_wikipedia,
